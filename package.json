@@ -1,0 +1,34 @@
+{
+  "name": "@qi24kcs/utils",
+  "version": "0.0.1",
+  "description": "琦总JS工具包",
+  "keywords": [
+    "utils"
+  ],
+  "license": "ISC",
+  "author": "牛逼的琦总",
+  "type": "module",
+  "homepage": "https://github.com/foolFate/npm-qi-utils?tab=readme-ov-file#npm-qi-utils",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foolFate/npm-qi-utils.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "main": "index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.40.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  }
+}
